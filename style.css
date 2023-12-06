@@ -3,7 +3,7 @@
 *::after {
   box-sizing: border-box;
 }
-
+/* these changes will include html,body and wrapper*/
 html,
 body,
 .wrapper {
@@ -11,7 +11,7 @@ body,
   margin: 0;
   padding: 0;
 }
-
+/* this will set the background color for the website and the font.*/
 body {
   font-family: sans-serif;
   background-color: #f9fbfd;
@@ -22,14 +22,14 @@ body {
   padding-left: 20px;
   padding-right: 20px;
 }
-
+/* this will make header text center and padding to it.*/
 header {
   text-align: center;
   padding: 20px;
   padding-top: 0px;
   color: hsl(206, 17%, 28%);
 }
-
+/* this will add css to .card including padding,boder and color.*/
 .card {
   background-color: hsl(0, 0%, 100%);
   border-radius: 5px;
@@ -49,15 +49,15 @@ header {
   background: #e7e9eb;
   height: 2px;
 }
-
+/* .card body height*/
 .card-body {
   min-height: 100px;
 }
-
+/* will align card footer center*/
 .card-footer {
   text-align: center;
 }
-
+/* css for what you will see before changes*/
 .card-footer::before {
   content: " ";
   display: block;
@@ -65,13 +65,13 @@ header {
   background: #e7e9eb;
   height: 2px;
 }
-
+/* css for what you will see after changes*/
 .card-footer::after {
   content: " ";
   display: block;
   clear: both;
 }
-
+/* this will add css to btn, making it center and adding color/font size and padding. */
 .btn {
   border: none;
   background-color: hsl(360, 91%, 36%);
@@ -96,7 +96,7 @@ button[disabled] {
 .float-right {
   float: right;
 }
-
+/* this will add css to the password*/
 #password {
   -webkit-appearance: none;
   -moz-appearance: none;
@@ -118,6 +118,7 @@ button[disabled] {
   overflow: hidden;
 }
 
+/* website will adjust size at 690px or smaller */
 @media (max-width: 690px) {
   .btn {
     font-size: 1rem;
@@ -129,7 +130,7 @@ button[disabled] {
     font-size: 1rem;
   }
 }
-
+/* website will adjust size at 500px or smaller */
 @media (max-width: 500px) {
   .btn {
     font-size: 0.8rem;

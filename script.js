@@ -20,6 +20,7 @@ var generatePassword= function(){
   
   // checking if a number is entered and legnth of number.
     if (isNaN(CLength)||CLength<8 || CLength>128) {
+      // if false,will let user know and will need to fix it.
       alert("enter numbers only!");
       return  false;
     }
@@ -32,7 +33,7 @@ if (uppercasechoice){
   Cchoice+=CUpper;
   window.alert("you will have uppercase characters in your password.")
 }else{
-
+// if false,will let user know its confirmed
   window.alert("you will not  have uppercase characters in your password.")
 }
 
@@ -46,7 +47,7 @@ if (lowercasechoice){
 
   window.alert("you will have lowercase characters in your password.")
 }else{
-
+// if false,will let user know its confirmed
   window.alert("you wont have lowercase characters in your password.")
 }
 
@@ -60,6 +61,7 @@ if (numericChoice){
 
   window.alert("you will have numbers in your password.")
 }else{
+  // if false,will let user know its confirmed
   window.alert("you chose not to have numbers.")
 }
 
@@ -72,7 +74,7 @@ if (specialCharcters){
   Cchoice+=CSpecial;
   window.alert("you will have special characters in your password.")
 }else{
-
+// if false,will let user know its confirmed
   window.alert("you chose not to have special characters.")
 }
 

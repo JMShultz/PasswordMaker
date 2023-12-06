@@ -7,6 +7,6 @@ This aplication will allow users to generate a password based of legnth and diff
  
  
   link to my deployed application:
-[PasswordMaker](https://jmshultz.github.io/Passwordmaker/)
+[PasswordMaker](https://jmshultz.github.io/PasswordMaker/)
 
   I used source code from github in my index.html and style.css and script.js.
