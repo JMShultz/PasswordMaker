@@ -2,7 +2,7 @@
 var CUpper = ["ABCDEFGHIJKLMNOPQRSTUVWXYZ"];
 var Clower = ["abcdefghijklmnopqrstuvwxyz"];
 var CNumber=[ "0123456789"];
-var CSpecial=["!@,#$%&*{}[]/^)("]
+var CSpecial=["!@,#$%&*{}[]/^)("];
 
 // query selector generate
 var generateBtn = document.querySelector("#generate");
